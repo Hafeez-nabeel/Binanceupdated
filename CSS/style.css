@@ -1,0 +1,197 @@
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@300;400;500;600;700&display=swap");
+
+* {
+  box-sizing: border-box;
+}
+body {
+  font-family: "IBM Plex Sans", sans-serif;
+}
+img {
+  width: 100%;
+}
+a {
+  transition: all 0.3s ease;
+  text-decoration: none;
+}
+.eur {
+  background-color: #fcd535;
+  padding: 2px 5px;
+  border-radius: 5px;
+  font-size: 12px;
+}
+#navbarNav a {
+  font-size: 15px;
+  font-weight: 500;
+}
+#navbarNav a:hover {
+  color: #f0b90b;
+}
+.navlink.fill a svg:hover {
+  fill: #fcd535;
+}
+.register {
+  background-color: #fcd535;
+  padding: 3px 5px;
+  border-radius: 5px;
+}
+/*________________________________ Top sticky *_______________________________________*/
+#top-stick {
+  background-color: #fef6d8;
+  font-size: 14px;
+  color: #0000;
+}
+#top-stick a {
+  color: #000000;
+}
+#top-stick .btn {
+  background-color: #fcd535;
+  border-radius: 5px;
+  padding: 1px 3px;
+  font-weight: 500;
+  font-size: 12px;
+  margin-left: 20px;
+  opacity: 2;
+}
+
+/* Trade section */
+#section-trade {
+  padding: 50px 50px;
+}
+#section-trade .trade h5 {
+  font-weight: 500;
+  font-size: 40px;
+}
+#section-trade .trad-bit {
+  font-size: 16px;
+  color: #000000;
+}
+/* sign up btn*/
+
+.signup .btn {
+  background-color: #fcd535;
+  padding: 10px 30px;
+  font-weight: 500;
+  font-size: 18px;
+}
+@media (max-width: 600px), (max-width: 768px) {
+  #section-trade .trade h5 {
+    font-weight: 500;
+    font-size: 20px;
+  }
+  .signup .btn {
+    font-size: 10px;
+  }
+  .signup a {
+    display: flex;
+    justify-content: center;
+    width: 100% !important;
+    padding: 0px;
+  }
+}
+
+#section-trade .conitnue {
+  margin-left: 25% !important;
+  margin-top: 10px !important;
+}
+#section-trade .btn-google-apple {
+  background-color: #eaecef;
+  padding: 10px 40px;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 150px;
+}
+#section-trade .bxl-apple {
+  font-size: 20px;
+  /* margin-top: 5px; */
+}
+.binancepng {
+  border-radius: 15px !important;
+}
+
+/* Table images */
+#table-img img {
+  width: 32px;
+}
+
+/* port */
+.port {
+  background-color: #fcd535;
+  padding: 8px 60px;
+  border-radius: 5px;
+}
+
+/* info box */
+.info-box {
+  display: flex;
+}
+.info-box img {
+  width: 150px;
+  height: 100px;
+}
+.box-image img {
+  width: 250px;
+  height: 500px;
+}
+
+/* Groth bussines */
+.bg-growth {
+  background-color: #fafafa;
+  margin-right: 30px;
+  width: 350px !important;
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+.bg-growth:hover {
+  box-shadow: 0 0.5rem 1rem rgb(0 0 0 / 15%) !important;
+}
+.grow-m {
+  margin-bottom: 150px;
+}
+#rewards img {
+  width: 40px;
+  height: 40px;
+}
+#rewards span {
+  color: #43a66d;
+}
+#rewards i {
+  background-color: #e6e4e4;
+  border-radius: 100%;
+  padding: 5px;
+}
+.reward-hover {
+  background-color: #fafafa;
+}
+.reward-hover:hover {
+  border: 1px solid #f0b90b;
+  border-radius: 5px;
+  background-color: #ffff;
+}
+
+/* android */
+.android {
+  background-color: #fafafa;
+}
+.down-img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 500px;
+  height: 500px;
+}
+/* help */
+#help a {
+  color: #fcd535;
+}
+/* footer
+ */
+#logofooter svg {
+  color: grey;
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+#logofooter svg:hover {
+  color: #000000;
+}
